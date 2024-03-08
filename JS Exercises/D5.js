@@ -79,10 +79,10 @@ console.log(cars);
 */
 const justTrims = [];
 for (let i = 0; i < cars.length; i++) {
-  justTrims.push(cars[i].trims);
-  console.log(justTrims);
+  justTrims.push(cars[i].trims[0]);
+  
 }
-
+console.log(justTrims);
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
@@ -187,6 +187,8 @@ for (let i = 0; i < charactersArray.length; i++) {
     case "z":
       charactersArray2.push(21);
       break;
+      default:
+        console.log("non è una lettera!")
   }
 }
 console.log(charactersArray2)
