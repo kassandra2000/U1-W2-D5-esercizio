@@ -107,7 +107,7 @@ const numericArray = [
 //   console.log(numericArray[k])
 // k++
 // }
-//2 modi
+                                                            //2 modi
 let k = 0;
 while (numericArray[k] !== 32) {
   console.log(numericArray[k]);
